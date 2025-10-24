@@ -57,6 +57,14 @@ This work establishes the methodological foundation data preprocessing, temporal
 # Evaluation and interpretation
 
 # Technologies
+The project leverages a modern data science technology stack to ensure efficient data processing, model training, and evaluation.
+
+- **Programming language:** Python 3.12.7
+- **Data manipulation and analysis:** Pandas, NumPy.
+- **Data vizualisation:** Matplotlib, seaborn.
+- **Machine learning and modeling:** Scikit-learn
+- **Development environment:** Jupyter notebook, VS Code.
+- **Version control:** Git & Github
 
 # Repository structure
 ```bash
