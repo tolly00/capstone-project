@@ -1,5 +1,11 @@
 ![enter image description here](Images/pv_powerstation.png)
 # Predicting Photovoltaic Energy Production Performance
+[![GitHub license](https://img.shields.io/github/license/tolly00/capstone-project)](https://github.com/tolly00/capstone-project/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/tolly00/capstone-project)](https://github.com/tolly00/capstone-project/commits/main)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
+[![LinkedIn Alberto](https://img.shields.io/badge/LinkedIn-Alberto%20Sylveus-blue?logo=linkedin)](https://www.linkedin.com/in/albertosylveus/)
+[![LinkedIn Serginio](https://img.shields.io/badge/LinkedIn-Marcus%20Inossaint-blue?logo=linkedin)](https://www.linkedin.com/in/marcus-inossaint/)
+[![LinkedIn Akademi](https://img.shields.io/badge/LinkedIn-Akademi-blue?logo=linkedin)](https://www.linkedin.com/company/myakademico)
 # Overview
 The goal of this Data Science project is to **develop a predictive model** capable of estimating PV energy production with high accuracy. By doing so, the organization will improve resource allocation, maintenance scheduling, and power delivery reliability.
 
