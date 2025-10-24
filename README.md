@@ -59,3 +59,24 @@ This work establishes the methodological foundation data preprocessing, temporal
 # Technologies
 
 # Repository structure
+```bash
+capstone-project/
+├── Data/          # dataset for the case study
+│   ├── ...
+│   ├── ...
+│   └── ...
+├── Images/        # images used
+│   ├── ...
+│   ├── ...
+│   └── ...
+├── PDFs/          # pdf files 
+│   ├── ...       # notebook.pdf
+│   ├── ...       # github.pdf
+│   └── ...       # presentation.pdf
+├── .DS_Store       
+├── .gitignore
+├── LICENSE
+├── Multi-station_Trained_Model.ipynb
+├── README.md    
+└── Single-station_Trained_Model.ipynb           
+```
