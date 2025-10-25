@@ -53,7 +53,15 @@ This work establishes the methodological foundation data preprocessing, temporal
 
 
 # Modeling
+This project formulates a **classification problem**, aiming to predict the **energy production level** (_Low_, _Medium_, or _High_) from environmental and meteorological variables.  
+The target variable `power_class` was derived from the continuous feature `power` by applying thresholds to categorize the output levels.
 
+To identify the most effective classifier, several algorithms were tested and compared:
+
+-   **Logistic Regression**
+-   **Random Forest Classifier**
+
+To ensure the model generalizes well to unseen data, we made **feature selection and correlation analysis.** Model performance was evaluated using the classification metrics: **Accuracy, precision, Recall, F1-Score and Confusion matrix.**
 # Evaluation and interpretation
 
 # Technologies
