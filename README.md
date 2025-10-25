@@ -63,6 +63,12 @@ To identify the most effective classifier, several algorithms were tested and co
 
 To ensure the model generalizes well to unseen data, we made **feature selection and correlation analysis.** Model performance was evaluated using the classification metrics: **Accuracy, precision, Recall, F1-Score and Confusion matrix.**
 # Evaluation and interpretation
+After training multiple classification models, we evaluated their performance on unseen test data to identify the best-performing algorithm for predicting solar energy production levels (Low, Medium, High).
+
+#### Interpretation Summary
+
+The final classification model provides a practical way to forecast energy production categories using accessible environmental inputs.
+It transforms complex meteorological data into clear insights for decision-making—helping system operators or individual users (like homeowners) anticipate solar energy availability and optimize usage.
 
 # Technologies
 The project leverages a modern data science technology stack to ensure efficient data processing, model training, and evaluation.
