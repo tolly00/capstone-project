@@ -55,7 +55,7 @@ This work establishes the methodological foundation data preprocessing, temporal
 ![enter image description here](Images/class_distribution.png)
 ![enter image description here](Images/power_by_month.png)
 ![enter image description here](Images/power_by_day_hour.png)
-![enter image description here](Images/corr_matrix.png)
+
 
 # Modeling
 This project formulates a **classification problem**, aiming to predict the **energy production level** (_Low_, _Medium_, or _High_) from environmental and meteorological variables.  
