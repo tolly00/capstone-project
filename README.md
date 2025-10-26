@@ -51,6 +51,11 @@ To ensure contextual relevance, the interpretation phase will:
 
 This work establishes the methodological foundation data preprocessing, temporal modeling, and interpretability analysis while recognizing that local calibration will be an essential next step for real world deployment in Haiti or other comparable regions.
 
+# visualization
+![enter image description here](Images/class_distribution.png)
+![enter image description here](Images/power_by_month.png)
+![enter image description here](Images/power_by_day_hour.png)
+![enter image description here](Images/corr_matrix.png)
 
 # Modeling
 This project formulates a **classification problem**, aiming to predict the **energy production level** (_Low_, _Medium_, or _High_) from environmental and meteorological variables.  
@@ -62,13 +67,22 @@ To identify the most effective classifier, several algorithms were tested and co
 -   **Random Forest Classifier**
 
 To ensure the model generalizes well to unseen data, we made **feature selection and correlation analysis.** Model performance was evaluated using the classification metrics: **Accuracy, precision, Recall, F1-Score and Confusion matrix.**
+
 # Evaluation and interpretation
 After training multiple classification models, we evaluated their performance on unseen test data to identify the best-performing algorithm for predicting solar energy production levels (Low, Medium, High).
+
+| **Model** | **Accuracy** | **Precision** | **Recall** | **F1-Score** | 
+|:-----------|:-------------:|:--------------:|:------------:|:--------------:|
+| Logistic Regression |  |  |  |  | 
+| **Random Forest Classifier** | ** ** | ** ** | ** ** | ** ** | 
+
+![enter image description here](Images/lr_conf_matrix.png)
+![enter image description here](Images/rf_conf_matrix.png)
 
 #### Interpretation Summary
 
 The final classification model provides a practical way to forecast energy production categories using accessible environmental inputs.
-It transforms complex meteorological data into clear insights for decision-making—helping system operators or individual users (like homeowners) anticipate solar energy availability and optimize usage.
+It transforms complex meteorological data into clear insights for decision-making helping system operators or individual users (like house owners) anticipate solar energy availability and optimize usage.
 
 # Technologies
 The project leverages a modern data science technology stack to ensure efficient data processing, model training, and evaluation.
