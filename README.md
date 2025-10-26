@@ -73,11 +73,12 @@ After training multiple classification models, we evaluated their performance on
 
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1-Score** | 
 |:-----------|:-------------:|:--------------:|:------------:|:--------------:|
-| Logistic Regression |  |  |  |  | 
-| **Random Forest Classifier** | ** ** | ** ** | ** ** | ** ** | 
+| Logistic Regression | 0.9649 | 0.93 |0.92  | 0.92 | 
+| **Random Forest Classifier** | **0.9609** | **0.92** | **0.92** | **0.92** | 
 
 ![enter image description here](Images/lr_conf_matrix.png)
 ![enter image description here](Images/rf_conf_matrix.png)
+![enter image description here](Images/featureImportance.png)
 
 #### Interpretation Summary
 
